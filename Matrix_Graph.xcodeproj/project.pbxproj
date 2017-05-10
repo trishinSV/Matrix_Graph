@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A5C238AC1EC3226F0052476A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C238AB1EC3226F0052476A /* main.cpp */; };
+		A5C238B41EC322B10052476A /* GraphM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C238B21EC322B10052476A /* GraphM.cpp */; };
+		A5C238BB1EC32DFC0052476A /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5C238B91EC32DFC0052476A /* List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		A5C238A81EC3226F0052476A /* Matrix_Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Matrix_Graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C238AB1EC3226F0052476A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A5C238B21EC322B10052476A /* GraphM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphM.cpp; sourceTree = "<group>"; };
+		A5C238B31EC322B10052476A /* GraphM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphM.h; sourceTree = "<group>"; };
+		A5C238B51EC322D00052476A /* data31.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data31.txt; sourceTree = "<group>"; };
+		A5C238B91EC32DFC0052476A /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		A5C238BA1EC32DFC0052476A /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				A5C238AB1EC3226F0052476A /* main.cpp */,
+				A5C238B91EC32DFC0052476A /* List.cpp */,
+				A5C238BA1EC32DFC0052476A /* List.hpp */,
+				A5C238B21EC322B10052476A /* GraphM.cpp */,
+				A5C238B31EC322B10052476A /* GraphM.h */,
+				A5C238B51EC322D00052476A /* data31.txt */,
 			);
 			path = Matrix_Graph;
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C238BB1EC32DFC0052476A /* List.cpp in Sources */,
+				A5C238B41EC322B10052476A /* GraphM.cpp in Sources */,
 				A5C238AC1EC3226F0052476A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
